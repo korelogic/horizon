@@ -9,7 +9,7 @@ const default_user = 'admin';
 const default_pass = '';
 
 class ReqlConnection {
-  constructor(host, port, db,
+  constructor(host, port, db, ssl,
               auto_create_collection, auto_create_index,
               user, pass, connect_timeout,
               interruptor) {
@@ -17,6 +17,7 @@ class ReqlConnection {
       host,
       port,
       db,
+      ssl,
       user: user || default_user,
       password: pass || default_pass,
       timeout: connect_timeout || null,

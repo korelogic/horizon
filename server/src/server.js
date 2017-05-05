@@ -84,6 +84,7 @@ class Server {
       this._reql_conn = new ReqlConnection(opts.rdb_host,
                                            opts.rdb_port,
                                            opts.project_name,
+                                           opts.rdb_ssl,
                                            opts.auto_create_collection,
                                            opts.auto_create_index,
                                            opts.rdb_user || null,
