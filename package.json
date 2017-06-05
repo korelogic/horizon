@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/rethinkdb/horizon#readme",
   "dependencies": {
-    "@horizon/server": "git+ssh://git@github.com:korelogic/horizon-server.git#2.0.3",
+    "@horizon/server": "https://github.com/korelogic/horizon-server.git#2.0.4",
     "argparse": "^1.0.3",
     "bluebird": "^3.4.1",
     "chalk": "^1.1.3",
