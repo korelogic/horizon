@@ -2,7 +2,6 @@
   "name": "horizon",
   "version": "2.0.3",
   "description": "An open-source developer platform for building realtime, scalable web apps.",
-  "main": "src/main.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rethinkdb/horizon.git"
