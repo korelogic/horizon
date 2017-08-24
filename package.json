@@ -1,6 +1,6 @@
 {
   "name": "horizon",
-  "version": "2.0.7",
+  "version": "3.0.0",
   "description": "An open-source developer platform for building realtime, scalable web apps.",
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/rethinkdb/horizon#readme",
   "dependencies": {
-    "@horizon/server": "https://github.com/korelogic/horizon-server.git#2.0.7",
+    "@horizon/server": "https://github.com/korelogic/horizon-server.git#3.0.0",
     "argparse": "^1.0.3",
     "bluebird": "^3.4.1",
     "chalk": "^1.1.3",
